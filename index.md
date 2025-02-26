@@ -57,7 +57,7 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 {% endif %}
 
 
-<p><h4><center><strong>Apply for the workshop at <a href="https://bit.ly/4kaYFDG" target='blank'>https://bit.ly/40zA1mT</a>.</strong></center></h4></p>
+<p><h4><center><strong>Apply for the workshop at <a href="https://bit.ly/4kaYFDG" target='blank'>https://bit.ly/4kaYFDG</a>.</strong></center></h4></p>
 
 <h2 id="general">General Information</h2>
 
