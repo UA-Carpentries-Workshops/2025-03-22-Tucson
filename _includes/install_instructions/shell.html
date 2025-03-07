@@ -12,6 +12,7 @@
     </ul>
     <div class="tab-content">
       <article role="tabpanel" class="tab-pane active" id="shell-windows">
+<!--
         <ol>
           <li>Download the Git for Windows <a href="https://gitforwindows.org/">installer</a>.</li>
           <li>Run the installer and follow the steps below:
@@ -92,7 +93,6 @@
 	  </li>
         </ol>
         <p>This will provide you with both Git and Bash in the Git Bash program.</p>
-<!---
 	<h4>Video Tutorial</h4>
         <div class="yt-wrapper2">
         <div class="yt-wrapper">
@@ -100,6 +100,18 @@
         </div>
         </div>
 --->
+        <ol>Note: You need to have administrative rights on your laptop for this installation to work!
+          <li>Open the Windows PowerShell.</li>
+          <li>Type "wsl --install" (without quotes), this will download the WSL installer.</li>
+		  <li>Once the download ends, reboot your machine. (Depending on the processor and internet speed, the download should be done in less than 1 minute.)</li>
+		  <li>After restarting, search your PC for "WSL" using the search bar and open it.
+			<ul><li>If WSL just opens a window and quickly closes it again, open up PowerShell and execute "wsl --install" again.</li></ul>
+		  </li>
+		  <li>Search your PC again for WSL and pin it to your Taskbar (optional).</li>
+		  <li>Open WSL and finish setting up by choosing a user name/account and password.</li>
+		  <li>To find out what your WSL installation recognizes as "Home" on your PC, type "explorer.exe .". The GUI window that's then opening will be the "Home" location for your WSL installation.</li>
+		</ol>
+
       </article>
       <article role="tabpanel" class="tab-pane" id="shell-macos">
         <p>
@@ -115,7 +127,7 @@
             To see if your default shell is Bash type <code>echo $SHELL</code>
             in Terminal and press the <kbd>Return</kbd> key. If the message
             printed does not end with '/bash' then your default is something
-            else, you can change your current shell to Bash by typing
+            else. You can change your current shell to Bash by typing
             <code>bash</code> and then pressing  <kbd>Return</kbd>. To check
             your current shell type <code>echo $0</code> and press <kbd>Return</kbd>.
         </p>
